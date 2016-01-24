@@ -7,7 +7,7 @@ function split(arr) {
 function merge(arr1, arr2) {
     var resultArr = [];
     
-    while (!!arr1.length && !!arr2.length) {
+    while (arr1.length && arr2.length) {
         if (arr1[0] < arr2[0]) {
             resultArr.push(arr1.shift());
         }
